@@ -1,0 +1,23 @@
+#header {background-color:rgb(236, 158, 158);
+color: black;
+padding: 20px;
+text-align: center;
+font-size: 36px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+
+img {border: 2px solid black}
+.image-with-text img {display: flex; align-items: center;}
+.image-with-text .text{flex-grow: 1;}
+
+#about {font-size: 20px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.links {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.flex-container {display: flex;
+justify-content: space-around;
+align-items: center;
+height: 200px;}
+.flex-item {width:200px; height: 200px; background-color: lightpink;
+text-align: center; line-height: 200px;}
+
+#footer
