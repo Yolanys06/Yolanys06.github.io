@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T05:25:29.708Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MDZ8ctdvnzt0cPhOS-fO" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T05:45:15.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="s2WXwB5bPhEoG0F36Q0Y" version="22.1.5" type="github">
   <diagram name="Page-1" id="pcjoGbgrFlT2-Ms75mwo">
     <mxGraphModel dx="1363" dy="1761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ht-ry6OkDduc0hVXBzxZ-5" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="110" y="-730" width="780" height="710" as="geometry" />
+          <mxGeometry x="120" y="-790" width="780" height="710" as="geometry" />
         </mxCell>
         <mxCell id="Ht-ry6OkDduc0hVXBzxZ-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ht-ry6OkDduc0hVXBzxZ-5">
           <mxGeometry width="780" height="710" as="geometry" />
@@ -43,28 +43,43 @@
         <mxCell id="Ht-ry6OkDduc0hVXBzxZ-12" value="External Systems" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="-720" width="150" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ht-ry6OkDduc0hVXBzxZ-15" target="Ht-ry6OkDduc0hVXBzxZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Ht-ry6OkDduc0hVXBzxZ-15" value="User Interphase" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="172.5" y="-630" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ht-ry6OkDduc0hVXBzxZ-16" target="Ht-ry6OkDduc0hVXBzxZ-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ht-ry6OkDduc0hVXBzxZ-16" value="Django views" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="-640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-18" value="Nutrient Models" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="-355" width="120" height="60" as="geometry" />
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ht-ry6OkDduc0hVXBzxZ-18" target="Ht-ry6OkDduc0hVXBzxZ-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-19" value="Django Models" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="177.5" y="-450" width="120" height="50" as="geometry" />
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-18" value="Nutrient Models (Soil and Water)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="-310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-20" value="Input forms" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="177.5" y="-540" width="120" height="50" as="geometry" />
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ht-ry6OkDduc0hVXBzxZ-19" target="Ht-ry6OkDduc0hVXBzxZ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-19" value="Django Models,&lt;br&gt;(Database)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="-430" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ht-ry6OkDduc0hVXBzxZ-20" target="Ht-ry6OkDduc0hVXBzxZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-20" value="Input forms and User Input Interactions" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="-525" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="Ht-ry6OkDduc0hVXBzxZ-21" target="Ht-ry6OkDduc0hVXBzxZ-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ht-ry6OkDduc0hVXBzxZ-21" value="Aerial Photography" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="715" y="-350" width="120" height="50" as="geometry" />
+          <mxGeometry x="715" y="-345" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-23" value="Database for nutrient data" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="-290" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-24" value="Background tasks" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-24" value="Background tasks&lt;br&gt;(Celery)" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="-540" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Ht-ry6OkDduc0hVXBzxZ-26" value="Soil and Water data APIs" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -79,11 +94,11 @@
         <mxCell id="Ht-ry6OkDduc0hVXBzxZ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="Ht-ry6OkDduc0hVXBzxZ-28" target="Ht-ry6OkDduc0hVXBzxZ-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-28" value="Portable Mass Spec&amp;nbsp;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-28" value="Portable Mass Spectrometer&amp;nbsp;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="715" y="-550" width="120" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-29" value="Trained ML model" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="-180" width="120" height="80" as="geometry" />
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-29" value="Trained ML Model for Prediction of Cyanobacteria Growth Identification&amp;nbsp;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-190" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ht-ry6OkDduc0hVXBzxZ-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ht-ry6OkDduc0hVXBzxZ-39" target="Ht-ry6OkDduc0hVXBzxZ-16">
           <mxGeometry relative="1" as="geometry">
@@ -95,6 +110,21 @@
         </mxCell>
         <mxCell id="Ht-ry6OkDduc0hVXBzxZ-39" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="690" y="-610" width="7" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-430" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.055;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ht-ry6OkDduc0hVXBzxZ-16" target="Ht-ry6OkDduc0hVXBzxZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" edge="1" parent="1" source="Ht-ry6OkDduc0hVXBzxZ-23" target="Ht-ry6OkDduc0hVXBzxZ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-23" value="Models for Water and Soil Data" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ht-ry6OkDduc0hVXBzxZ-43" value="Machine Learning Models for Cyanobacteria Growth Identification" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="-305" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
